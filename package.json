@@ -1,0 +1,27 @@
+{
+  "name": "super-umbrella",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damien1719/super-umbrella.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damien1719/super-umbrella/issues"
+  },
+  "homepage": "https://github.com/damien1719/super-umbrella#readme",
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  }
+}
